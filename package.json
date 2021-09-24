@@ -6,6 +6,7 @@
   "private": true,
   "scripts": {
     "dev": "npx webpack-dev-server --open --hot --mode development",
+    "build": "npx webpack --mode production",
     "lint-fix": "npx eslint --fix src/**/*",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
